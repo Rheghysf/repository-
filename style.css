@@ -1,0 +1,123 @@
+{
+    margem: 0;
+    preenchimento: 0;
+    tamanho de caixa:border-box;
+    estilo lista: nenhum;
+}
+
+corpo, html {
+    largura: 100% ;
+    altura: 100% ;
+    cor de fundo:  #EEE;
+    fonte-família: 'Roboto', Arial, Helvetica, sans-serif;
+    tamanho da fonte: 16px ;
+
+    display: flex;
+    justificar-content: centro;
+    itens de alinhamento: centro;
+    flex-wrap: wrap;
+}
+
+img{max-width: 100%  !importante;}
+
+h1 {
+    peso-fonte: negrito;
+    tamanho da fonte: 2,5em ;
+    altura da linha: 1em ;
+    margem: 15px  auto;
+}
+
+h1::depois {
+    conteúdo: "";
+    exibição:bloco;
+    largura: 100% ;
+    altura: 5px ;
+    cor de fundo:  #000;
+    margem: 2px  0 15px  0;
+}
+
+span {tamanho da fonte: 1,5em ;}
+
+a {text-decoration: none; cor:  #000}
+
+P {
+    font-size: 1.25em;
+    altura da linha: 1.4em ;
+}
+
+p + p {margem: 15px  0;}
+
+. recipiente {
+    largura: 1100px ;
+    preenchimento: 15px ;
+    display: flex;
+    justificar-content: centro;
+    itens de alinhamento: centro;
+    flex-direção: coluna;
+
+    cor de fundo:  #FFF;
+    box-shadow: 15px  15px  15px  0px  rgba(0, 0, 0, .1);
+    raio-fronteira: 5px ;
+}
+
+Principal {
+    largura: 100% ;
+    altura: auto;
+    margem: 0 auto;
+}
+
+Artigo {
+    largura: 100% ;
+    display: flex;
+    justificar-content: centro;
+    itens de alinhamento: centro;
+    flex-wrap: wrap;
+}
+
+seção. foto-social {
+    flex: 1 1 100px ;
+}
+
+seção. texto {
+    flex: 1 1 400px ;
+}
+
+seção + seção {margem-esquerda: 15px ;}
+
+. foto {
+    width: 300px;
+    height: 300px;
+    margem: 0 auto;
+    raio-fronteira: 50% ;
+}
+
+. foto img {
+    width: 300px;
+    height: 300px;
+    margem: 0 auto;
+    raio-fronteira: 50% ;
+}
+
+ul. social {
+    largura: 100% ;
+    altura: auto;
+    margem-superior: 15px ;
+    display: flex;
+    justificar-content: centro;
+    itens de alinhamento: centro;
+}
+
+ul. li social  {
+    flex: 1 1 35px ;
+    margem: 5px ;
+}
+
+ul. social li a {
+    alinhamento de texto: centro;
+    exibição:bloco;
+    padding: 5px;
+    transição: todos .5s  facilidade-in-out;
+}
+
+ul. social li a:pairar {opacidade: .5;}
+
